@@ -90,7 +90,7 @@
 
 
 
-
+<!-- personagem __________________________________________-->
     <ImageView
         android:src="@drawable/persona"
         android:layout_width="0dp"
@@ -100,6 +100,7 @@
         app:layout_constraintBottom_toTopOf="@+id/h2"
         app:layout_constraintTop_toBottomOf="@+id/h1"
         ></ImageView>
+<!--pesquisa______________________________________________ -->
 
     <EditText
 
@@ -113,7 +114,7 @@
         app:layout_constraintTop_toBottomOf="@+id/h1"
 
         />
-
+<!-- titulo_________________________________________________ -->
     <TextView
         android:layout_width="250dp"
         android:layout_height="30dp"
@@ -125,6 +126,7 @@
         app:layout_constraintLeft_toRightOf="@+id/v1"
         app:layout_constraintTop_toBottomOf="@+id/h2" />
 
+ <!-- Scroll1___________________________________________-->
     <HorizontalScrollView
         android:id="@+id/scroll1"
         android:layout_width="0dp"
@@ -138,6 +140,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+<!-- card1______________________________________________________-->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -191,7 +194,7 @@
                     android:backgroundTint="@color/botao"/>
             </LinearLayout>
             </LinearLayout>
-
+            <!-- card2______________________________________________________-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -245,6 +248,7 @@
                         android:backgroundTint="@color/botao"/>
                 </LinearLayout>
             </LinearLayout>
+            <!-- card3______________________________________________________-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -301,13 +305,9 @@
 
         </LinearLayout>
 
-
-
-
-
-
     </HorizontalScrollView>
 
+ <!--titulo2________________________________________________________-->
     <TextView
         android:layout_width="250dp"
         android:layout_height="30dp"
@@ -318,7 +318,7 @@
         app:layout_constraintBottom_toTopOf="@id/h8"
         app:layout_constraintLeft_toRightOf="@+id/v1"
         app:layout_constraintTop_toBottomOf="@+id/h4" />
-
+<!--Scroll2 _____________________________________________________________-->
     <HorizontalScrollView
         android:id="@+id/scroll2"
         android:layout_width="0dp"
@@ -331,7 +331,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
 
             <LinearLayout
                 android:layout_width="100dp"
