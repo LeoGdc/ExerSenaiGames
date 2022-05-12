@@ -60,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.58" />
+        app:layout_constraintGuide_percent="0.6" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/h6"
@@ -135,33 +135,175 @@
         app:layout_constraintStart_toStartOf="parent"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardcontainer"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:layout_marginRight="5dp">
             <ImageView
-                android:src="@drawable/card"
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:layout_marginHorizontal="10dp"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Contra III: The Alien Wars"
+                android:fontFamily="@font/turret_road_extrabold"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:layout_marginBottom="3dp"/>
 
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/nintendo"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/window"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/android"
+                    android:layout_marginRight="49dp"/>
 
-            <ImageView
-                android:src="@drawable/card"
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:layout_marginHorizontal="10dp"
-                />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:textSize="14sp"
+                    android:text="Watch"
+                    android:backgroundTint="@color/botao"/>
+            </LinearLayout>
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cardcontainer"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/image"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contra III: The Alien Wars"
+                    android:fontFamily="@font/turret_road_extrabold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="3dp"/>
 
-            <ImageView
-                android:src="@drawable/card"
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:layout_marginHorizontal="10dp"
-                />
+                <LinearLayout
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/nintendo"
+                        android:layout_marginRight="5dp"/>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/window"
+                        android:layout_marginRight="5dp"/>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/android"
+                        android:layout_marginRight="49dp"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:textSize="14sp"
+                        android:text="Watch"
+                        android:backgroundTint="@color/botao"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cardcontainer"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/image"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contra III: The Alien Wars"
+                    android:fontFamily="@font/turret_road_extrabold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="3dp"/>
+
+                <LinearLayout
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/nintendo"
+                        android:layout_marginRight="5dp"/>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/window"
+                        android:layout_marginRight="5dp"/>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/android"
+                        android:layout_marginRight="49dp"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:textSize="14sp"
+                        android:text="Watch"
+                        android:backgroundTint="@color/botao"/>
+                </LinearLayout>
+            </LinearLayout>
 
         </LinearLayout>
+
+
+
+
 
 
     </HorizontalScrollView>
