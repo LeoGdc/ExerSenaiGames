@@ -99,6 +99,7 @@
         app:layout_constraintStart_toEndOf="@+id/v1"
         app:layout_constraintBottom_toTopOf="@+id/h2"
         app:layout_constraintTop_toBottomOf="@+id/h1"
+
         ></ImageView>
 <!--pesquisa______________________________________________ -->
 
@@ -106,6 +107,7 @@
 
         android:background="@drawable/bordersearch"
         android:text="Search..."
+        android:fontFamily="@font/turretroad_extrabold"
         android:textColor="@color/sea"
         android:layout_width="250dp"
         android:layout_height="45dp"
@@ -118,7 +120,7 @@
     <TextView
         android:layout_width="250dp"
         android:layout_height="30dp"
-        android:fontFamily="@font/turret_road_extrabold"
+        android:fontFamily="@font/turretroad_extrabold"
         android:text="New and Treading"
         android:textColor="@color/white"
         android:textSize="24dp"
@@ -159,7 +161,7 @@
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:text="Contra III: The Alien Wars"
-                android:fontFamily="@font/turret_road_extrabold"
+                android:fontFamily="@font/turretroad_extrabold"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:layout_marginBottom="3dp"/>
@@ -187,10 +189,12 @@
                     android:layout_marginRight="49dp"/>
 
                 <Button
+
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:textSize="14sp"
                     android:text="Watch"
+                    android:fontFamily="@font/turretroad_extrabold"
                     android:backgroundTint="@color/botao"/>
             </LinearLayout>
             </LinearLayout>
@@ -213,7 +217,7 @@
                     android:layout_width="230dp"
                     android:layout_height="wrap_content"
                     android:text="Contra III: The Alien Wars"
-                    android:fontFamily="@font/turret_road_extrabold"
+                    android:fontFamily="@font/turretroad_extrabold"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:layout_marginBottom="3dp"/>
@@ -245,6 +249,7 @@
                         android:layout_height="40dp"
                         android:textSize="14sp"
                         android:text="Watch"
+                        android:fontFamily="@font/turretroad_extrabold"
                         android:backgroundTint="@color/botao"/>
                 </LinearLayout>
             </LinearLayout>
@@ -267,7 +272,7 @@
                     android:layout_width="230dp"
                     android:layout_height="wrap_content"
                     android:text="Contra III: The Alien Wars"
-                    android:fontFamily="@font/turret_road_extrabold"
+                    android:fontFamily="@font/turretroad_extrabold"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:layout_marginBottom="3dp"/>
@@ -299,6 +304,7 @@
                         android:layout_height="40dp"
                         android:textSize="14sp"
                         android:text="Watch"
+                        android:fontFamily="@font/turretroad_extrabold"
                         android:backgroundTint="@color/botao"/>
                 </LinearLayout>
             </LinearLayout>
@@ -311,7 +317,7 @@
     <TextView
         android:layout_width="250dp"
         android:layout_height="30dp"
-        android:fontFamily="@font/turret_road_extrabold"
+        android:fontFamily="@font/turretroad_extrabold"
         android:text="Best of the year"
         android:textColor="@color/white"
         android:textSize="24dp"
@@ -358,7 +364,7 @@
                     android:layout_height="wrap_content"
                     android:text="The Witcher"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/turret_road_extrabold"
+                    android:fontFamily="@font/turretroad_extrabold"
                     android:textSize="12dp"
                     android:layout_marginTop="12dp"
 
@@ -393,7 +399,7 @@
                     android:layout_height="wrap_content"
                     android:text="The Witcher"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/turret_road_extrabold"
+                    android:fontFamily="@font/turretroad_extrabold"
                     android:textSize="12dp"
                     android:layout_marginTop="12dp"
                     >
@@ -427,7 +433,7 @@
                     android:layout_height="wrap_content"
                     android:text="The Witcher"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/turret_road_extrabold"
+                    android:fontFamily="@font/turretroad_extrabold"
                     android:textSize="12dp"
                     android:layout_marginTop="12dp"
 
@@ -462,7 +468,7 @@
                     android:layout_height="wrap_content"
                     android:text="The Witcher"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/turret_road_extrabold"
+                    android:fontFamily="@font/turretroad_extrabold"
                     android:textSize="12dp"
                     android:layout_marginTop="12dp"
 
